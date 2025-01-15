@@ -1,0 +1,3 @@
+# RecursionError in Factorial Function
+This repository demonstrates a common error in recursive functions: exceeding the maximum recursion depth. The `factorial.py` file contains a Python function that calculates the factorial of a number. However, it lacks a base case to handle negative inputs, which leads to infinite recursion.
+The solution (`bugSolution.py`) provides a corrected version of the function that gracefully handles this error by returning an appropriate error message or value for negative inputs.
